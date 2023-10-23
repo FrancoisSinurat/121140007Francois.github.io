@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulir Pendataan</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <!-- class judul -->
+      <div class="judul">DAFTAR AKUN</div>
+    </header>
+      <nav class="sidebar">
+      <!-- class sidebar -->
+      <div class="menu">
+        <ul>
+          <li><a href="../home/home.html">Home</a></li>
+          <li><a href="../daftar/daftar.html"class="active">Daftar</a></li>
+          <li><a href="../tabel/tabel.html">Tabel</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="lamanform">
+      <h1>Pendaftaran Akun Mahasiswa</h1>
+      <form action="" method="get">
+        <div>
+          <label for="nama">Masukkan Nama :</label>
+          <input type="text" name="nama" id="nama" required />
+        </div>
+
+        <div>
+          <label for="nim">NIM Anda :</label>
+          <input type="tel" name="nim" id="nim" required />
+        </div>
+        <div>
+          <label for="prodi">Program Studi :</label>
+          <input type="text" name="prodi" id="prodi" required/>
+        </div>
+        <div>
+          <label for="email">Email :</label>
+          <input type="email" name="email" id="email" required/>
+        </div>
+        <div>
+          <label for="password">Password :</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div>
+          <label for="password">alamat :</label>
+          <textarea name="alamat" id="alamat" cols="25" rows="4" required></textarea>
+        </div>
+        <div><button type="submit">Daftar</button></div>
+      </form>
+    </div>
+  </body>
+  <footer>made by Francois Novalentino Sinurat</footer>
+</html>
